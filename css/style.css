@@ -284,4 +284,30 @@ h1 {
 
 }
 
+    .cta {
+
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 60px 10%;
+
+}
+
+
+.cta h1 {
+
+    color: white;
+
+}
+
+
+.cta button {
+
+    margin-top: 20px;
+    background: white;
+    color: #003366;
+
+}
+    
+
 }
