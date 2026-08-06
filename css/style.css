@@ -52,20 +52,23 @@ header .container{
     letter-spacing:1px;
 }
 
-nav a{
-    color:#ffffff;
-    text-decoration:none;
-    margin-left:35px;
-    font-size:18px;
-    font-weight:600;
-    letter-spacing:.3px;
-    transition:.3s;
+nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
 }
 
-nav a:hover{
-    color:#ffd54f;
+nav a {
+    text-decoration: none;
+    color: #003366;
+    font-weight: 600;
+    font-size: 16px;
+    transition: 0.3s;
 }
 
+nav a:hover {
+    color: #0077cc;
+}
 /* Hero */
 
 .hero{
