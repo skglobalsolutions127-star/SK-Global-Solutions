@@ -249,6 +249,39 @@ h1 {
     font-size: 30px;
 
 }
+/* Contact CTA */
 
+.cta {
+
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 60px 10%;
+
+}
+
+
+.cta h1 {
+
+    color: white;
+    margin-bottom: 15px;
+
+}
+
+
+.cta p {
+
+    margin-bottom: 25px;
+
+}
+
+
+.cta button {
+
+    background: white;
+    color: #003366;
+    font-weight: bold;
+
+}
 
 }
