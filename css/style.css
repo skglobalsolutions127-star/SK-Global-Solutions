@@ -7,34 +7,40 @@
 
 
 body {
-   background: linear-gradient(
+
+    background: linear-gradient(
         135deg,
         #f7fbff,
         #ffffff
     );
 
     color: #333;
+
 }
+
 
 
 /* Header */
 
 header {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 8%;
-    background: #ffffff;
+    background: white;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+
 }
 
 
 .logo img {
 
-    width: 300px !important;
+    width: 230px;
     height: auto;
 
 }
+
 
 
 nav a {
@@ -56,6 +62,7 @@ nav a:hover {
 
 
 
+
 /* Common Sections */
 
 section {
@@ -63,6 +70,7 @@ section {
     padding: 60px 8%;
 
 }
+
 
 
 h1 {
@@ -75,12 +83,14 @@ h1 {
 }
 
 
+
 h2 {
 
     color: #003366;
-    margin: 25px 0 15px;
+    margin: 20px 0 15px;
 
 }
+
 
 
 p {
@@ -89,6 +99,45 @@ p {
     line-height: 1.7;
 
 }
+
+
+
+
+/* Hero Section */
+
+.hero {
+
+    background: linear-gradient(
+        120deg,
+        #003366,
+        #0066cc
+    );
+
+    color: white;
+    text-align: center;
+    padding: 100px 10%;
+
+}
+
+
+
+.hero h1 {
+
+    color: white;
+    font-size: 45px;
+
+}
+
+
+
+.hero p {
+
+    color: white;
+    max-width: 900px;
+    margin: auto;
+
+}
+
 
 
 
@@ -121,26 +170,44 @@ p {
 
 
 
+
 /* Services */
 
 .service-container {
 
     display: flex;
     gap: 25px;
+    margin-top: 30px;
 
 }
+
 
 
 .service-box {
 
     flex: 1;
-    background: #f5f9ff;
+    background: white;
     padding: 30px;
     border-radius: 15px;
     text-align: center;
-     transition: 0.3s;
+
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+
+    transition: 0.3s;
 
 }
+
+
+
+.service-box:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+
+}
+
+
 
 
 
@@ -168,7 +235,9 @@ textarea {
     width: 100%;
     padding: 14px;
     margin-bottom: 15px;
+
     border: 1px solid #ccc;
+
     border-radius: 5px;
 
 }
@@ -181,17 +250,24 @@ textarea {
 }
 
 
+
 button {
 
     background: #003366;
     color: white;
+
     padding: 14px 35px;
+
     border: none;
+
     border-radius: 5px;
+
     cursor: pointer;
+
     font-size: 16px;
 
 }
+
 
 
 button:hover {
@@ -202,16 +278,74 @@ button:hover {
 
 
 
+
+
+/* Contact CTA */
+
+.cta {
+
+    background: linear-gradient(
+        120deg,
+        #003366,
+        #0066cc
+    );
+
+    color: white;
+
+    text-align: center;
+
+    padding: 70px 10%;
+
+}
+
+
+
+.cta h1 {
+
+    color: white;
+
+}
+
+
+
+.cta p {
+
+    color: white;
+
+    margin-bottom: 25px;
+
+}
+
+
+
+.cta button {
+
+    background: white;
+
+    color: #003366;
+
+    font-weight: bold;
+
+}
+
+
+
+
+
 /* Footer */
 
 footer {
 
     background: #003366;
+
     color: white;
+
     text-align: center;
+
     padding: 20px;
 
 }
+
 
 
 
@@ -234,6 +368,14 @@ nav {
 }
 
 
+.logo img {
+
+    width: 180px;
+
+}
+
+
+
 .about-box,
 .service-container,
 .contact-container {
@@ -243,11 +385,13 @@ nav {
 }
 
 
-.logo img {
 
-    width: 190px;
+.hero h1 {
+
+    font-size: 30px;
 
 }
+
 
 
 h1 {
@@ -255,65 +399,6 @@ h1 {
     font-size: 30px;
 
 }
-/* Contact CTA */
 
-.cta {
-
-    background: #003366;
-    color: white;
-    text-align: center;
-    padding: 60px 10%;
-
-}
-
-
-.cta h1 {
-
-    color: white;
-    margin-bottom: 15px;
-
-}
-
-
-.cta p {
-
-    margin-bottom: 25px;
-
-}
-
-
-.cta button {
-
-    background: white;
-    color: #003366;
-    font-weight: bold;
-
-}
-
-    .cta {
-
-    background: #003366;
-    color: white;
-    text-align: center;
-    padding: 60px 10%;
-
-}
-
-
-.cta h1 {
-
-    color: white;
-
-}
-
-
-.cta button {
-
-    margin-top: 20px;
-    background: white;
-    color: #003366;
-
-}
-    
 
 }
