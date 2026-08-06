@@ -225,14 +225,14 @@ nav a{
 .logo{
     display:flex;
     align-items:center;
+    flex-shrink:0;
 }
 
 .logo img{
-    height:90px;
+    height:120px;
     width:auto;
-    object-fit:contain;
+    display:block;
 }
-
 /* Navigation alignment */
 header{
     min-height:90px;
