@@ -219,11 +219,16 @@ nav a{
 .section h2{
     font-size:32px;
 }
-/* Logo */
+
+.logo{
+    display:flex;
+    align-items:center;
+}
+
 .logo img{
-    height:70px;
+    height:90px;
     width:auto;
-    display:block;
+    object-fit:contain;
 }
 
 /* Navigation alignment */
