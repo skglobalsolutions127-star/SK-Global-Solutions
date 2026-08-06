@@ -1,1 +1,226 @@
-body{font-family:Arial,sans-serif;margin:0}header{background:#0b3d91;color:#fff;padding:15px;position:sticky;top:0}.container{width:90%;margin:auto}nav a{color:#fff;margin:0 10px;text-decoration:none}.hero{padding:80px 20px;background:#eaf2ff;text-align:center}.cards{display:flex;gap:15px}.card{padding:20px;background:#fff;border:1px solid #ddd}section{padding:40px 0}
+/* ===========================
+   SK Global Solutions
+   Professional Corporate Theme
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins', Arial, sans-serif;
+    background:#f5f7fb;
+    color:#333;
+    line-height:1.7;
+}
+
+/* Header */
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background:#0b3d91;
+    box-shadow:0 4px 15px rgba(0,0,0,.15);
+    z-index:1000;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+header .container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 0;
+}
+
+.logo img{
+    height:70px;
+    width:auto;
+}
+
+nav{
+    display:flex;
+    gap:30px;
+}
+
+nav a{
+    color:#fff;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#ffd54f;
+}
+
+/* Hero */
+
+.hero{
+    height:100vh;
+    background:linear-gradient(rgba(11,61,145,.75),rgba(11,61,145,.75)),
+    url("https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=80");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:#fff;
+    padding:20px;
+}
+
+.overlay{
+    max-width:850px;
+}
+
+.hero h1{
+    font-size:58px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:22px;
+    margin-bottom:35px;
+}
+
+.btn{
+    display:inline-block;
+    background:#ff9800;
+    color:#fff;
+    text-decoration:none;
+    padding:15px 35px;
+    border-radius:40px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#ffb300;
+    transform:translateY(-3px);
+}
+
+/* Sections */
+
+section{
+    padding:90px 0;
+}
+
+section h2{
+    text-align:center;
+    color:#0b3d91;
+    font-size:38px;
+    margin-bottom:20px;
+}
+
+section p{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+}
+
+/* Cards */
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+    margin-top:40px;
+}
+
+.card{
+    background:#fff;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#0b3d91;
+    margin-bottom:15px;
+}
+
+/* Dark Section */
+
+.dark{
+    background:#0b3d91;
+    color:#fff;
+}
+
+.dark h2,
+.dark p{
+    color:#fff;
+}
+
+.dark .card{
+    color:#222;
+}
+
+/* Contact */
+
+#contact{
+    text-align:center;
+}
+
+#contact .btn{
+    margin-top:25px;
+}
+
+/* Footer */
+
+footer{
+    background:#081f4d;
+    color:#fff;
+    text-align:center;
+    padding:30px;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+header .container{
+    flex-direction:column;
+}
+
+.logo img{
+    height:55px;
+    margin-bottom:10px;
+}
+
+nav{
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+}
+
+.hero h1{
+    font-size:36px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+section h2{
+    font-size:30px;
+}
+
+}
