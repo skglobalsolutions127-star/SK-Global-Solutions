@@ -38,11 +38,10 @@ header{
     margin:auto;
 }
 
-header .container{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    min-height:120px;
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo{
@@ -231,13 +230,26 @@ nav a{
     flex-shrink:0;
 }
 
-.logo img{
-    height:120px;
-    width:auto;
-    display:block;
+.logo img {
+    width: 160px;
+    height: auto;
+    display: block;
 }
 /* Navigation alignment */
 header{
     min-height:90px;
+}
+   .logo {
+    flex: 0 0 auto;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
 }
 }
