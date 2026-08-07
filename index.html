@@ -1,61 +1,132 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SK Global Solutions</title>
+
   <style>
-    body {
-      font-family: Arial, sans-serif;
+    * {
       margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f5f5f5;
     }
 
     header {
       background: #0b3d91;
-      padding: 15px;
+      padding: 15px 40px;
       display: flex;
       align-items: center;
+      justify-content: space-between;
     }
 
-    header img {
-      width: 80px;
-      height: 80px;
+    .logo img {
+      width: 90px;
+      height: 90px;
       object-fit: contain;
-    }
-
-    nav {
-      margin-left: 20px;
     }
 
     nav a {
       color: white;
       text-decoration: none;
-      margin: 15px;
+      margin-left: 25px;
       font-size: 18px;
     }
 
-    section {
-      padding: 40px;
+    nav a:hover {
+      color: #ffd700;
+    }
+
+    .hero {
       text-align: center;
+      padding: 80px 20px;
+      background: white;
+    }
+
+    .hero h1 {
+      font-size: 40px;
+      color: #0b3d91;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #333;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 25px;
+      background: #0b3d91;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .button:hover {
+      background: #06265c;
+    }
+
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
     }
   </style>
+
 </head>
 
 <body>
 
 <header>
-  <a href="index.html">
-    <img src="logo.png" alt="SK Global Solutions Logo">
-  </a>
+
+  <div class="logo">
+    <a href="index.html">
+      <img src="logo.png" alt="SK Global Solutions Logo">
+    </a>
+  </div>
 
   <nav>
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
   </nav>
+
 </header>
 
-<section>
+
+<section class="hero">
+
   <h1>Welcome to SK Global Solutions</h1>
-  <p>Your trusted business solutions partner.</p>
+
+  <p>
+    Professional solutions to help your business grow.
+  </p>
+
+  <a class="button" href="about.html">
+    Learn More
+  </a>
+
 </section>
 
+
+<footer>
+
+  <p>
+    © 2026 SK Global Solutions. All Rights Reserved.
+  </p>
+
+</footer>
+
+
 </body>
+
 </html>
